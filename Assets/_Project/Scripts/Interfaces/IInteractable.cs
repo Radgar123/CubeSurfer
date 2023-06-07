@@ -1,7 +1,7 @@
 ﻿namespace _Project.Scripts.Interfaces
 {
-    public interface IInteractable
+    public interface IInteractable<T>
     {
-        public void Interact();
+        public void Interact(T parameter);
     }
 }

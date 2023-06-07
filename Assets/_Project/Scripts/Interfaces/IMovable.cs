@@ -1,7 +1,7 @@
 ﻿namespace _Project.Scripts.Interfaces
 {
-    public interface IMovable
+    public interface IMovable<T>
     {
-        public void Move();
+        public void Move(T parameter);
     }
 }

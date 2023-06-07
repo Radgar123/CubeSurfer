@@ -1,0 +1,34 @@
+{
+    "name": "CubeSurferPlayer",
+    "maps": [
+        {
+            "name": "PC",
+            "id": "e2791173-1ec6-4677-8254-eb60e092545a",
+            "actions": [
+                {
+                    "name": "PlayerMoveMent",
+                    "type": "Value",
+                    "id": "e3e5d50d-211d-4f9c-b852-920ec535405e",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e3bbf753-b22c-4516-aa98-8d3bb8d428c0",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayerMoveMent",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
