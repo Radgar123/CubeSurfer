@@ -19,6 +19,12 @@ namespace _Project.Scripts.Player
             EventManager.instance.gameOver.RemoveListener(EnableIdle);
         }
 
+        /*private void Start()
+        {
+            EventManager.instance.startGame.AddListener(EnableRun);
+            EventManager.instance.gameOver.AddListener(EnableIdle);
+        }*/
+
         #region Change Animation Status
 
         private void EnableRun(){_animator.SetBool("IsRun",true);}
